@@ -6,7 +6,7 @@ const userList = document.getElementById('users');
 const messageTone = new Audio('/message-tone.mp3')
 
 //connect server io
-const socket = io('http://localhost:3000')
+const socket = io('https://chatio-yotc.onrender.com/')
 // Parse the query string using the qs library
 var pageUrl = new URL(window.location.href);
 
